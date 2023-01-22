@@ -1,0 +1,26 @@
+.container {
+    box-sizing: border-box;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+h2 {
+    color: beige; 
+}
+
+h1 {
+    color: beige; 
+}
+
+p {
+    text-align: justify;
+    font-size: larger;
+    color: beige;
+}
+

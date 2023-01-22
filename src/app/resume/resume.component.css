@@ -1,0 +1,39 @@
+.container {
+    box-sizing: border-box;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.info {
+   background-color: rgb(229, 225, 219);
+   padding: 50px;
+}
+
+li {
+    font-weight: 900;
+    font-size: large;
+    padding-bottom: 25px;
+}
+
+img {
+    width: 600px;
+    border: 15px solid rgb(229, 225, 219);
+}
+
+h1 {
+    text-align: center;
+}
+
+.certificate {
+    width: 200px;
+}
+
+.box_certificate {
+    display: flex;
+}

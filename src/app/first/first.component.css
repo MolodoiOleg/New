@@ -1,0 +1,36 @@
+.container {
+    box-sizing: border-box;
+    width: 94%;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+img {
+    width: 60%;
+}
+
+.photo {
+    width: 500px;
+}
+
+.link {
+    display: flex;
+    gap: 65px;
+    /* width: 80%; */
+    /* margin: auto; */
+    margin-top: 40px;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}

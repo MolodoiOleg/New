@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="info">
+        <h1>
+            Резюме
+        </h1>
+        <ul>
+            <li>
+                ПІБ:  {{ name }}
+            </li>
+            <li>
+               Телефон:  {{ phone }}
+            </li>
+            <li>
+                Email:  {{ email }}
+            </li>
+            <li>
+                Місто проживання:  {{ city }}
+            </li>
+            <li>
+                Досвід роботи:  {{ expirience }}
+            </li>
+            <li>
+                Навички:  {{ skills }}
+            </li>
+            <li>
+                Мій інстаграм: <a href="https://instagram.com/rozbyte.koryto?igshid=Yzg5MTU1MDY=" target="_blank">Instagram</a>
+            </li>
+            <li>
+                Сертифікати: 
+            </li>
+            <div class="box_certificate">
+                <img class="certificate" src='{{ certificate[0]}}'>
+                <img class="certificate" src='{{ certificate[1]}}'>
+            </div>
+        </ul>
+    </div>
+    <img src="{{ photo }}" alt="My photo">
+</div>
+
