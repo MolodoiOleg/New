@@ -26,6 +26,43 @@
                 Мій інстаграм: <a href="https://instagram.com/rozbyte.koryto?igshid=Yzg5MTU1MDY=" target="_blank">Instagram</a>
             </li>
             <li>
+                Пройдений курс на: {{ course | percent }}
+            </li>
+            <li>
+                Бажана заробітня плата: {{ salary | currency }}
+            </li>
+            <li>
+                День народження: {{ birthday | date }}
+            </li>
+            <li>
+                Вік: {{age}}
+                <div>
+                    <button (click)="inc()"> + </button>
+                    <button (click)="dec()"> - </button>
+                </div>
+            </li>
+            <div class="btn-console">
+                <!-- <li>
+                    <button (click)="consoleInfo(age)">Console</button>
+                </li>
+                <li>
+                    <button (click)="consoleEvent($event)">Event</button>
+                </li>
+                <li>
+                    <button (click)="consoleEventType($event)">Type</button>
+                </li> -->
+                <li>
+                    <button (click)="tm = age; age = course; course = tm;">Reverse</button>
+                </li>
+            </div>
+            <div class="radio">
+                <label for="man">Чоловік</label>
+                <!-- <input type="radio" name="btns" id="man" [checked]="flag"> -->
+                <input type="radio" name="btns" id="man" checked="{{!flag}}">
+                <label for="woman">Жінка</label>
+                <input type="radio" name="btns" id="woman">
+            </div>
+            <li>
                 Сертифікати: 
             </li>
             <div class="box_certificate">

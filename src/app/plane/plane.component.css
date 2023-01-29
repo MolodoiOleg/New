@@ -1,0 +1,23 @@
+.container {
+    width: 96%;
+    margin: auto;
+    background-image: url(../../assets/photoPlane/ce9b0278e823e4aca35894973fceb2ee.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.animals {
+    font-size: xx-small;
+}

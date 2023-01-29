@@ -58,5 +58,11 @@ li {
 
 .man {
     width: 100px;
-    
 }
+
+.biggest-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+

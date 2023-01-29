@@ -24,3 +24,16 @@ p {
     color: beige;
 }
 
+li {
+    color: rgb(8, 8, 7);
+}
+
+.color {
+    color: bisque;
+}
+
+button {
+    margin-top: 15px;
+    color: beige;
+    background-color: black;
+}

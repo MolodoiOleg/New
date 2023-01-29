@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./second.component.css']
 })
 export class SecondComponent {
-
+  // players: Array <string> = ["Coby Bryant, Leberon James, shaquille O'neal, Michael Jordan "]
+  // players = ["Coby Bryant, Leberon James, shaquille O'neal, Michael Jordan "]
+  expression = true
 }
 

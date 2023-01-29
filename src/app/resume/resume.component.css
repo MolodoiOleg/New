@@ -37,3 +37,12 @@ h1 {
 .box_certificate {
     display: flex;
 }
+
+.btn-console {
+    display: flex;
+    gap: 10px;
+}
+
+.radio {
+    margin-bottom: 25px;
+}

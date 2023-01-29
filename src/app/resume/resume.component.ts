@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Data } from '@angular/router';
 
 @Component({
   selector: 'app-resume',
@@ -16,4 +17,29 @@ export class ResumeComponent {
     certificate: Array <string> = ["../../assets/photoResume/lt04027254_quantized.png",
     "../../assets/photoResume/сертифі.webp"
     ];
+    salary:number = 7000;
+    course:number = 0.60;
+    birthday:string = '04/07/1994';
+    flag:boolean = true;
+    age:number = 28;
+    tm:any; 
+
+    inc() {
+      this.age++;
+    }
+    dec(){
+      this.age--
+    }
+
+    consoleInfo(info:any) {
+      console.log(info);
+    }
+
+    consoleEvent(e:any) {
+      console.log(e);
+    }
+
+    consoleEventType(e:any) {
+      console.log(e.type);
+    }
 }

@@ -1,0 +1,18 @@
+.container {
+    width: 96%;
+    margin: auto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    
+}
