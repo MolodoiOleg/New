@@ -24,10 +24,6 @@ p {
     color: beige;
 }
 
-li {
-    color: rgb(8, 8, 7);
-}
-
 .color {
     color: bisque;
 }
@@ -37,3 +33,9 @@ button {
     color: beige;
     background-color: black;
 }
+
+.plaers {
+    color:beige;
+    list-style: none;
+}
+

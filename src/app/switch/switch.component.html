@@ -1,0 +1,32 @@
+<p>switch works!</p>
+<input type="text" #addElem (keyup.enter)="addCar(addElem.value)">
+<br>
+<label for=""></label>
+<input type="text"  #input1 (keyup.enter)="car = input1.value">
+<div [ngSwitch]="car">
+    <div *ngSwitchCase="'Audi'">
+        <h3>This is Audi model list:</h3>
+        <ul>
+            <li *ngFor=" let model of aud ">
+                {{model}}
+            </li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'BMW'">
+        <h3>This is BMW model list:</h3>
+        <ul>
+            <li *ngFor="let model of bmwModels">
+                {{model}}
+            </li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'Mersedes'">
+        <h3>This is Mersedes model list:</h3>
+        <ul>
+            <li *ngFor="let model of mersedesModels">
+                {{model}}
+            </li>
+        </ul>
+    </div>
+    <div *ngSwitchDefault></div>
+</div>

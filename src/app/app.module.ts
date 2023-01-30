@@ -10,6 +10,7 @@ import { BaseComponent } from './base/base.component';
 import { CarComponent } from './car/car.component';
 import { PlaneComponent } from './plane/plane.component';
 import { ShipComponent } from './ship/ship.component';
+import { SwitchComponent } from './switch/switch.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,7 @@ const routes: Routes = [
     CarComponent,
     PlaneComponent,
     ShipComponent,
+    SwitchComponent,
   ],
   imports: [
     BrowserModule,
